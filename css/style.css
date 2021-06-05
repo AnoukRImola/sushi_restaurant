@@ -1,0 +1,9 @@
+.loguito{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+ul li{
+    display: inline;
+}
