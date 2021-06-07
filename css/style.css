@@ -3,40 +3,111 @@
     padding: 0;
 }
 
-body{
+.container-header{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
 
-div{
-    background-color: darkgoldenrod;
-}
+.container-header.uno{
+    background-color: rgb(245, 230, 22);
+    height: 8vh;
+}    
 
-.header{
+.container-header.dos{
     display: flex;
     flex-flow: row wrap;
-}
-
-.header nav{
-    display: flex;
-    border: 1px solid red;
-    flex-flow: column nowrap;
-    flex: 1 1 auto;
+    background-color: tomato;
+    border: 2px solid white;
     justify-content: center;
-    padding-left: 17px;
-    margin-left: 3em;
+    
 }
 
-.header nav ul{
+.container-header.dos div{
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    margin: 7px;
+    border: 5px solid black; 
+    flex: 8 0 ;
+    
+}
+
+.container-header.dos div nav{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid green;
+    width: 100%;
+}
+
+.container-header.dos div nav ul{
+    display: flex;
+    border: 3px solid yellow;
+    width: 70%;
+    align-items: center;
+}
+    
+
+.container-header.dos div nav ul li{
+    list-style: none;
+    width: 75%;
+}
+
+.container-header.dos div img{
+    border: 5px solid green;
+}
+
+/*------------------------------------------------*/
+.container-main{
     display: flex;
     flex-flow: row wrap;
-   
+    border: 5px solid purple;
+    height: 70vh;
 }
 
-.header nav ul li{
-    list-style: none;
-    flex: 2 2 auto;   
+.container-main.uno{
+    display: flex;
+    border: 5px solid blue;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main.uno img{
+    width: 42vw;
+    height: 42vh;
+}
+
+.container-main.dos{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 45%;
+    border: 5px solid black;
+    justify-content: center;
+}
+
+.container-main.dos.primero{
+    background-color: salmon;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-items: center;
+
+}
+
+.container-main.dos.primero h1{
+    font-size: 8em;
+    
+
+.container-main.dos.primero h2{
+    font-size: 3em;
 }
 
 
- 
+
+
+
+
+.container-main.dos.segundo{
+    background-color: seagreen;
+    width: 100%;
+}
