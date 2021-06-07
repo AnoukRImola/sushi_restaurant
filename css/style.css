@@ -1,14 +1,42 @@
-
-
-/*------------------------------------GENERALES*/
 *{
     margin: 0;
     padding: 0;
 }
 
-/*------------------------------------HEADER*/
-/*------------------------------------MAIN*/
-/*------------------------------------SECTION*/
-/*------------------------------------FOOTER*/
+body{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div{
+    background-color: darkgoldenrod;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header nav{
+    display: flex;
+    border: 1px solid red;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding-left: 17px;
+    margin-left: 3em;
+}
+
+.header nav ul{
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+
+.header nav ul li{
+    list-style: none;
+    flex: 2 2 auto;   
+}
 
 
+ 
