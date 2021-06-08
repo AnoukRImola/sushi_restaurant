@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,8 +12,8 @@
 }
 
 .uno{
-    background-color: rgb(228, 37, 24);
-    height: 8vh;
+    background-color: crimson ;
+    height: 10vh;
 }
 
 .barra{
@@ -36,7 +39,19 @@
 }
 
 .nav ul li{
+    color: rgb(100, 98, 98);
     list-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav ul li a{
+    color: rgb(100, 98, 98);
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: crimson;
 }
 
 .image{
@@ -57,39 +72,84 @@
 .main-container{
     display: flex;
     flex-flow: row wrap;
-    background-color: violet;
+    justify-content: space-around;
     height: 55vh;
+
 }
 
 .imagen{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    border: 2px solid blue;
+   
+    
     flex-basis: 50%;
 }
 
 .imagen img{
-    width: 80%;
+    width: 90%;
 }
 
 .info{
     display: flex;
     flex-flow: column nowrap;
-    border: 2px solid blue;
-    flex-basis: 48%;
+    flex-basis: 30%;
+    margin-right: 3rem;
 }
 
 .titulos{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: flex-end;
 }
 
+.titulos h1{
+    font-size: 17vh;  
+    font-family: 'Dela Gothic One', cursive;
+    text-align: end;    
+    
+}
+
+.titulos h2{
+    font-size: 5vh;
+   text-align: end;
+   color: rgb(100, 98, 98);
+   font-weight: bold;
+   
+}
+
+.titulos p,span{
+    text-align: end;
+}
 .boton{
-    border: 1px solid black;
+   display: flex;
+   flex-flow: row;
+   justify-content: flex-end;
+   
+
+}
+
+.boton button{
+    border-radius: 5px;
+    border: transparent;
+    background-color: crimson;
+    flex-basis: 40%;
+    height: 60%;
+    margin-top: 1rem;
+    color: white;
 }
 
 .redes{
-    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+}
+
+.redes a{
+    color: black;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.redes a:hover{
+    color: crimson;
 }
