@@ -8,106 +8,88 @@
     flex-flow: column wrap;
 }
 
-.container-header.uno{
-    background-color: rgb(245, 230, 22);
+.uno{
+    background-color: rgb(228, 37, 24);
     height: 8vh;
-}    
+}
 
-.container-header.dos{
+.barra{
     display: flex;
     flex-flow: row wrap;
-    background-color: tomato;
-    border: 2px solid white;
+    flex-basis: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
+    flex-basis: 50%;
     
 }
 
-.container-header.dos div{
+.nav ul{
     display: flex;
-    justify-content: center;
-    background-color: wheat;
-    margin: 7px;
-    border: 5px solid black; 
-    flex: 8 0 ;
-    
-}
-
-.container-header.dos div nav{
-    display: flex;
-    justify-content: flex-end;
-    border: 2px solid green;
-    width: 100%;
-}
-
-.container-header.dos div nav ul{
-    display: flex;
-    border: 3px solid yellow;
-    width: 70%;
+    flex-flow: row wrap;
+    flex-basis: 50%;
+    justify-content: space-around;
     align-items: center;
 }
-    
 
-.container-header.dos div nav ul li{
+.nav ul li{
     list-style: none;
-    width: 75%;
 }
 
-.container-header.dos div img{
-    border: 5px solid green;
+.image{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    flex-basis: 50%;
 }
 
-/*------------------------------------------------*/
-.container-main{
+.image img{
+   height: 12vh; 
+   margin-right: 2rem;
+}
+
+
+
+/*-------------------------------------*/
+.main-container{
     display: flex;
     flex-flow: row wrap;
-    border: 5px solid purple;
-    height: 70vh;
+    background-color: violet;
+    height: 55vh;
 }
 
-.container-main.uno{
+.imagen{
     display: flex;
-    border: 5px solid blue;
-    width: 50%;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    border: 2px solid blue;
+    flex-basis: 50%;
 }
 
-.container-main.uno img{
-    width: 42vw;
-    height: 42vh;
+.imagen img{
+    width: 80%;
 }
 
-.container-main.dos{
+.info{
     display: flex;
     flex-flow: column nowrap;
-    width: 45%;
-    border: 5px solid black;
-    justify-content: center;
+    border: 2px solid blue;
+    flex-basis: 48%;
 }
 
-.container-main.dos.primero{
-    background-color: salmon;
+.titulos{
     display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    align-items: center;
-
+    flex-flow: column nowrap;
+    justify-content: flex-end;
 }
 
-.container-main.dos.primero h1{
-    font-size: 8em;
-    
-
-.container-main.dos.primero h2{
-    font-size: 3em;
+.boton{
+    border: 1px solid black;
 }
 
-
-
-
-
-
-.container-main.dos.segundo{
-    background-color: seagreen;
-    width: 100%;
+.redes{
+    border: 1px solid black;
 }
