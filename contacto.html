@@ -9,6 +9,43 @@
     <title>Sushi restaurant</title>
 </head>
 <body>
+    <!-------------------------------------------------------------------------------HEADER------>
+    <header>
+        <div class="container-header"><!---Contenedor principal-->
+    
+            <div class="container-header uno"> </div> <!---Contenedor uno-->
+    
+            <div class="container-header barra"><!---Contenedor dos-->
+                    <nav class="container-header barra nav">
+                        <ul>
+                            <li><a href="./index.html">合 HOME</a></li>
+                            <li><a href="">合 CONTACTO</a></li>
+                        </ul>
+                    </nav>
+    
+                    <div class="container-header barra image">
+                      <img src="./img/logo.png" alt="">
+                    </div>
+            </div>
+        </div>
+        </header>
+        <!-------------------------------------------------------------------------------MAIN------>
+        <main class="main">
+            
+                <form class="form" action="https://formspree.io/f/xwkaoqwb" method="POST">
+                    <label for="nombre y apellido">Nombre y apellido</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="" cols="30" rows="10" required></textarea>
+                    <div class="form boton-contacto">
+                        <button>ENVIAR</button>
+                    </div>
+                </form>
+
+            
+        </main>
     
 </body>
 </html>

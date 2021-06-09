@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-
+/*----------GENERALES--------*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*----------HEADER--------*/
+
+/*Contenedor principal*/
 .container-header{
     display: flex;
     flex-flow: column wrap;
 }
 
+/*primer subcontenedor*/
 .uno{
     background-color: crimson ;
     height: 10vh;
 }
 
+/*segundo subcontenedor*/
 .barra{
     display: flex;
     flex-flow: row wrap;
@@ -27,7 +33,6 @@
     flex-flow: row wrap;
     justify-content: center;
     flex-basis: 50%;
-    
 }
 
 .nav ul{
@@ -68,19 +73,19 @@
 
 
 
-/*-------------------------------------*/
+/*---------------MAIN-----------------*/
+
+/*contenedor principal*/
 .main-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     height: 55vh;
-
 }
 
+/*primer subcontenedor*/
 .imagen{
     display: flex;
-   
-    
     flex-basis: 50%;
 }
 
@@ -88,6 +93,7 @@
     width: 90%;
 }
 
+/*segundo subcontenedor*/
 .info{
     display: flex;
     flex-flow: column nowrap;
@@ -105,7 +111,6 @@
     font-size: 17vh;  
     font-family: 'Dela Gothic One', cursive;
     text-align: end;    
-    
 }
 
 .titulos h2{
@@ -113,18 +118,16 @@
    text-align: end;
    color: rgb(100, 98, 98);
    font-weight: bold;
-   
 }
 
 .titulos p,span{
     text-align: end;
 }
+
 .boton{
    display: flex;
    flex-flow: row;
    justify-content: flex-end;
-   
-
 }
 
 .boton button{
@@ -141,7 +144,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    
 }
 
 .redes a{
@@ -152,4 +154,55 @@
 
 .redes a:hover{
     color: crimson;
+}
+
+
+/*---------------VISTA CONTACTO-----------------*/
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.form{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 25%;
+    height: 50vh;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.form label{
+    margin-top: 1rem;
+}
+
+.form input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 4vh;
+}
+
+.form textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.boton-contacto{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.boton-contacto button{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: transparent;
+    text-align: center;
+    height: 5vh;
 }
