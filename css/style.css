@@ -47,7 +47,7 @@
     color: rgb(100, 98, 98);
     list-style: none;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .nav ul li a{
@@ -97,24 +97,23 @@
 .info{
     display: flex;
     flex-flow: column nowrap;
-    flex-basis: 30%;
-    margin-right: 3rem;
 }
 
 .titulos{
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
+    flex: 2 1 60%;  
 }
 
 .titulos h1{
-    font-size: 17vh;  
+    font-size: 8rem;  
     font-family: 'Dela Gothic One', cursive;
-    text-align: end;    
+    text-align: end; 
 }
 
 .titulos h2{
-    font-size: 5vh;
+   font-size: 2rem;
    text-align: end;
    color: rgb(100, 98, 98);
    font-weight: bold;
@@ -128,6 +127,7 @@
    display: flex;
    flex-flow: row;
    justify-content: flex-end;
+   flex: 1 1 20%;  
 }
 
 .boton button{
@@ -135,7 +135,7 @@
     border: transparent;
     background-color: crimson;
     flex-basis: 40%;
-    height: 60%;
+    height: 50%;
     margin-top: 1rem;
     color: white;
 }
@@ -144,6 +144,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    flex: 1 1 20%;  
 }
 
 .redes a{
@@ -159,6 +160,7 @@
 
 /*---------------VISTA CONTACTO-----------------*/
 
+/*contenedor principal*/
 .main{
     display: flex;
     flex-flow: row wrap;
@@ -168,6 +170,7 @@
     border-top: 2px solid crimson;
 }
 
+/*suncontenedor*/
 .form{
     display: flex;
     flex-flow: column nowrap;
